@@ -1,0 +1,135 @@
+/* body {
+  margin: auto;
+} */
+
+.form-control {
+  display: flex;
+  width:  600px;
+  justify-content: space-between;
+}
+
+.form-input {
+  padding: 10px;
+  height: 60px;
+  width: 80%;
+  font-size: 18px;
+}
+
+.btn-submit {
+  width: 20%;
+  margin-left: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-add-child-task {
+  width: 20%;
+  margin-left: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-update-child-task {
+  width: 20%;
+  margin-left: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: lightblue;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-cancel-update {
+  width: 20%;
+  margin-left: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.update {
+  background-color: lightblue;
+}
+
+.disabled {
+  display: none;
+}
+
+
+.tasks {
+  margin-top: 16px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.tasks__heading {
+  margin: 0;
+}
+
+.list-tasks {
+  padding-left: 10px;
+}
+
+.task-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  margin: 8px 0;
+  height: 60px;
+  align-items: center;
+}
+
+.task-item__content {
+  padding-left: 12px;
+}
+
+.task-item--control {
+  display: flex;
+}
+
+.btn {
+  text-decoration: none;
+  color: #000;
+  margin: 0px 8px;
+  display: block;
+  border-radius: 5px;
+  line-height: 26px;
+  height: 26px;
+  padding: 6px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.task-item--update-child {
+  background-color: lightgreen;
+}
+
+.task-item--update {
+  background-color: lightblue;
+}
+
+.task-item--delete {
+  background-color: red;
+}
+
+
+
