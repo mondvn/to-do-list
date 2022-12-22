@@ -71,6 +71,11 @@
   display: none;
 }
 
+.completed {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
 
 .tasks {
   margin-top: 16px;
@@ -129,6 +134,12 @@
 
 .task-item--delete {
   background-color: red;
+}
+
+.task-item__toggle {
+  margin: 0px 10px;
+  width: 20px;
+  height: 20px;
 }
 
 
